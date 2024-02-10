@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33801.447
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Raman_SSIS", "Raman_SSIS.dtproj", "{AD361DEB-713F-47E8-BA0C-907345355A2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD361DEB-713F-47E8-BA0C-907345355A2E}.Development|Default.ActiveCfg = Development
+		{AD361DEB-713F-47E8-BA0C-907345355A2E}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C930F28E-7E21-42B9-967A-905666F9CCC9}
+	EndGlobalSection
+EndGlobal
