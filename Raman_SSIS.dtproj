@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">MARVEL</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAHT4Nq/e/FE6p6reb/71a4gAAAAACAAAAAAAQZgAAAAEAACAAAAC0MdZwWzOcufp6qu+VHb56VLg4Dt1noztLDfTnP6+uXwAAAAAOgAAAAAIAACAAAACPbhx4doy+ZdRd2k59978cN7yV4BVMmQeiep/LOD0lPZAAAAAYM3c7ZvSoFEc4fdIHOUC0/nrqTZe1EJUlp2FFsXDLJhW/Bk6/L5ohqu+PDOLhpsbzzLo29q1O7tRh/i1btgbGV+sKUSw4BRxs/vLVSgBIm3H4UfZMToNzh/Vf1tLwqwN/zn8T6/DRUww1jsJvf6tjQAW9ocmb4SKohsBe85XxSaI+87Bbeu6GA/bex/DhSXtAAAAAj8m+/bGVruNVCA91KKG3t8JuhBO/NLF5SrF904nil8r2QMmouDQBLqJw8ZtYiqFHf4LPLSnDS03y1EPtqsvmmQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAHT4Nq/e/FE6p6reb/71a4gAAAAACAAAAAAAQZgAAAAEAACAAAADSUZojI3kyjdcf9HjdkASH6XwBIF4cq5G7fK7/HxEHHQAAAAAOgAAAAAIAACAAAAAvvyjaD4raDIljEgTzpHDg4zI4/6mg+dWr7zsD2zwIDZAAAADcfYF3r/p6/EFt01VhHPnlds6NG78GNSV5E40sAWDjZsIGMpxrbS6GZeHwhli7pZ0Kjh8jRr6ZDwNmvTPneXFEdGma3bPludSJDh4ZQqAf9+Dff6sVChpTVULKVCeB+J3aFgBmCrOA4L3ZsyjxJbl9rmnnEF64wkZ/dzEbURTk0Ve8pUmFLMSZ1Xs7AiqwTI1AAAAA0xU6l1xO7Nd289LEtFU4vZkcmvF+dyNw10OesxjlLFtAj2U5UQn82qp1YDF2b4ECGpQdNwEKF4WP2ZS0bDVfkQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">3</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">27</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{28EAF5AF-8709-4E34-A7EC-767C77A6D0D8}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{CE18029A-9BEC-4EE4-A42C-58F47CF549C8}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -78,7 +78,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\Dynamics CRM\SSIS\Raman_SSIS_Image_Excel.xlsx;Extended Properties="Excel 12.0 XML;HDR=YES";</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\Dynamics CRM\SSIS\Raman_SSIS_Image_Excel.xlsx;Extended Properties="EXCEL 12.0 XML;HDR=YES";</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -510,21 +510,6 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Raman_CSV_Source.ConnectionString">
-                  <SSIS:Properties>
-                    <SSIS:Property SSIS:Name="ID">
-                    </SSIS:Property>
-                    <SSIS:Property SSIS:Name="CreationName">
-                    </SSIS:Property>
-                    <SSIS:Property SSIS:Name="Description">
-                    </SSIS:Property>
-                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">D:\Dynamics CRM\SSIS\Raman_SSIS_Image_CSV.csv</SSIS:Property>
-                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
-                  </SSIS:Properties>
-                </SSIS:Parameter>
                 <SSIS:Parameter SSIS:Name="CM.Raman_CSV_Source.DataRowsToSkip">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
@@ -612,6 +597,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
